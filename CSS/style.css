@@ -1,0 +1,267 @@
+
+/* Navbar items */
+
+.navBar{
+    position: fixed;
+    height: 100%;
+    white-space: nowrap;
+    flex-wrap: wrap;
+   
+}
+
+ul{
+    list-style-type: none;
+}
+.flexcontainer{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 0px;
+    padding-top: 9px;
+}
+
+
+
+.about{
+    color:#777777;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right-style: solid;
+    border-right-color: #dddddd;
+    border-right-width: 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+   
+}
+
+.portfolio{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right-style: solid;
+    border-right-color: #dddddd;
+    border-right-width: 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+.contact{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+    padding-left: 5px;
+    text-decoration: none;
+
+}
+
+.nameColumn{
+  
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 30px;
+    padding-left: 0px;
+    padding-top: .45em;
+    height: 100%;
+    width: 30%;
+    white-space: nowrap;
+    background-color: #4aaaa5;
+
+}
+
+.name{
+    position: relative;
+    white-space: nowrap;
+    
+    width: 1000px;
+    left: 0%;
+    right:5px;
+    left: 20px;
+    top: -5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    opacity: 0.95;
+    text-rendering: optimizeLegibility; 
+    text-rendering: geometricPrecision;
+    height: 100%;
+    width: 100%;
+}
+
+.headTop{
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 1.5px;
+    height: auto; 
+    white-space: nowrap;
+    flex-wrap: wrap;
+   display: flex;
+
+}
+
+
+/* Body items */
+body{
+    background-image: url("../images/background5.png");
+}
+
+
+ 
+.blankSpace{
+
+    height: 5em;
+}
+
+/* Main container items */
+.mainContainer{
+    background-color: #ffffff;
+    border: #dddddd;
+    border-width: 1px;
+    border-style: solid;
+    overflow: auto;
+    padding: 25px;
+    padding-bottom: 12.5px;
+}
+    
+.mainHeader{
+    color: #4aaaa5;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+    border-bottom-width: 3px;
+    padding-bottom: 20px;
+    margin-bottom: 12px;
+    
+}
+
+.paragraphFormat{
+    color:#777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px; 
+    line-height: 1.9;
+
+}
+
+.imageContainer{
+    float:left;
+    margin-top: 2.25%;
+    margin-right: 2.25%;
+  
+
+    
+}
+
+.textSpecific{
+    margin-top: 1.5%;
+
+}
+
+.bg-light{
+background-color: #777777;
+
+}
+
+#copyright{
+    color: #dbd6d6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+}
+
+.border-primary{
+    border-top:#4aaaa5!important;
+}
+
+
+
+/* Media query- Header*/
+
+@media screen and (max-width: 767px){
+    .nameColumn{
+        padding-left: 22%;
+    }
+}
+
+
+@media screen and (max-width: 575px){
+
+    .flexcontainer{
+        justify-content: center;
+        padding-left: 0px;
+    }
+    .nameColumn{
+        padding-left: 4.70em;
+    }
+
+    .mainContainer{
+        padding-top:4%;
+        padding-right:4%;
+        padding-left: 4%;
+    }
+}
+@media screen and (max-width: 500px){
+
+    .textSpecific{
+        clear: left;
+      
+    }
+
+    .imageContainer{
+        margin-bottom:3%;
+    }
+}
+
+
+
+/* Formatting for portfolio page */
+
+.pFormat{
+    color:#777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px; 
+    line-height: 1.9;
+}
+
+span{
+    float: left;
+    width: 300px;
+    height:300px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    margin-right: 25px;
+    margin-bottom: 12.5px;
+    margin-top: 12.5px;
+    margin-left: 0px;
+    
+}
+
+.galleryLabels{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    top: 75%;
+    text-align: center;
+}
+
+
+.galleryImages{
+    position: absolute;
+}
+
+#submitButton{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-style: none;
+    height: 40px;
+    width: 110px;
+    font-size: 15px;
+}
+
+
